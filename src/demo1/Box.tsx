@@ -27,7 +27,7 @@ const Box: React.FC<BoxProps> = ({ name }) => {
 		})
 	})
 	return (
-		<div style={{ ...style }}>
+		<div style={{ ...style }} ref={drag}>
 			{name}
 		</div>
 	)
