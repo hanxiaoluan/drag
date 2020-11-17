@@ -1,5 +1,5 @@
 import React from 'react'
-import Demo from './naive'
+import Demo from './preview'
 import './App.css'
 
 function App() {
