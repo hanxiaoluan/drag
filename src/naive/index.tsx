@@ -3,7 +3,7 @@ import { DndProvider } from 'react-dnd'
 import { HTML5Backend } from 'react-dnd-html5-backend'
 import Example from './exmaple'
 
-function App() {
+function Demo() {
 	return (
 		<div className="App">
 			<DndProvider backend={HTML5Backend}>
@@ -13,4 +13,4 @@ function App() {
 	)
 }
 
-export default App
+export default Demo
